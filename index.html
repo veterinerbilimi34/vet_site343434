@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ana Sayfa / Home</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/style.css" />
+  <meta name="theme-color" content="#000000"/>
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <div class="nav-left">
+        <a class="logo" href="index.html">Veteriner Bilimi / Veterinary Science</a>
+        <a href="index.html">Home / Ana Sayfa</a>
+        <a href="about.html">About / Hakkımda</a>
+        <a href="info.html">Info / Bilgiler</a>
+        <a href="blog.html">Blog</a>
+        <a href="notice.html">Notice / Not</a>
+      </div>
+      <div class="nav-right">
+        <button id="installBtn" onclick="installPWA()" style="display:none" class="badge">Install App</button>
+        <div class="lang-toggle">
+          <button onclick="setLang('tr')">TR</button>
+          <button onclick="setLang('en')">EN</button>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <section class="card">
+      <h1 class="lang lang-tr active">Veteriner Bilimi</h1>
+      <h1 class="lang lang-en">Veterinary Science</h1>
+      <p class="subtitle lang lang-tr">
+        Sitemize hoş geldiniz. Bu platformda veteriner hekimlik hakkında temel bilgiler edinecek,
+        hayvanlar âlemine dair ilgi çekici içeriklerle karşılaşacaksınız. Amacımız; hayvan sağlığı,
+        bakım ve koruma konularında bilgilendirici ve eğitici paylaşımlar sunmaktır. Bilimin ışığında,
+        doğaya ve canlılara saygıyla sizlerle birlikteyiz.
+      </p>
+      <p class="subtitle lang lang-en">
+        Welcome to our website. Here, you will find essential information about veterinary medicine
+        and fascinating insights into the animal kingdom. Our goal is to provide informative and educational
+        content on animal health, care, and protection. Guided by science, we stand with nature and all living beings
+        with respect and compassion.
+      </p>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h3 class="lang lang-tr">Neler Bulacaksınız?</h3>
+        <h3 class="lang lang-en">What Will You Find?</h3>
+        <ul class="lang lang-tr">
+          <li>Genel pratik veterinerlik bilgileri</li>
+          <li>Koruyucu hekimlik ve beslenme</li>
+          <li>Distemper gibi önemli hastalıklar hakkında farkındalık</li>
+        </ul>
+        <ul class="lang lang-en">
+          <li>General practical veterinary knowledge</li>
+          <li>Preventive care and nutrition</li>
+          <li>Awareness on important diseases like distemper</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 class="lang lang-tr">Not</h3>
+        <h3 class="lang lang-en">Note</h3>
+        <p class="lang lang-tr">Bu web sitesi sadece bilgilendirme amaçlıdır, herhangi bir ticari faaliyet içermez.</p>
+        <p class="lang lang-en">This website is intended for informational purposes only and does not engage in any commercial activity.</p>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p class="tiny lang lang-tr">Bu web sitesi sadece bilgilendirme amaçlıdır, herhangi bir ticari faaliyet içermez.</p>
+    <p class="tiny lang lang-en">This website is intended for informational purposes only and does not engage in any commercial activity.</p>
+    <p class="tiny">© 2025 Veteriner Bilimi — Black & White minimal theme.</p>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
